@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box; /* per evitare che padding e border allarghino il box */
+}
+
+body {
+  margin: 0; /*buona pratica per avere il più controllo sui margini*/ 
+}
+
+div {
+  background-color: red;
+  /* width: 50%;
+    margin: 10px auto; */
+  margin: 0 0 0 15px;
+  border: 2px solid green;
+}
+
+div + div {
+  background-color: rgb(106, 160, 157);
+  border: 1px solid blue;
+}

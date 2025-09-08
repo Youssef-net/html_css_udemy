@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+div {
+    margin : 10px;
+    border: 2px solid black;
+}
+
+div:first-of-type {
+    /*display: none;*/ /*nasconde anche lo spazio*/
+    /*visibility: hidden;*/ /*lo spazio rimane*/
+    opacity: 0; /*come hidden*/
+}
